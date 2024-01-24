@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpml:FeatureCollection xmlns:gpml="http://www.gplates.org/gplates" xmlns:gml="http://www.opengis.net/gml" xmlns:xsi="http://www.w3.org/XMLSchema-instance" gpml:version="1.6.0339" xsi:schemaLocation="http://www.gplates.org/gplates ../xsd/gpml.xsd http://www.opengis.net/gml ../../../gml/current/base">
+    <gml:featureMember>
+        <gpml:OrogenicBelt>
+            <gpml:identity>GPlates-6779601c-bcc3-4bf2-97ac-ca2e88981351</gpml:identity>
+            <gpml:revision>GPlates-083bfdab-5dc2-452a-ab9d-dc1e6d47961e</gpml:revision>
+            <gml:name>Himalayan 1600</gml:name>
+            <gml:validTime>
+                <gml:TimePeriod>
+                    <gml:begin>
+                        <gml:TimeInstant>
+                            <gml:timePosition gml:frame="http://gplates.org/TRS/flat">1550</gml:timePosition>
+                        </gml:TimeInstant>
+                    </gml:begin>
+                    <gml:end>
+                        <gml:TimeInstant>
+                            <gml:timePosition gml:frame="http://gplates.org/TRS/flat">http://gplates.org/times/distantFuture</gml:timePosition>
+                        </gml:TimeInstant>
+                    </gml:end>
+                </gml:TimePeriod>
+            </gml:validTime>
+            <gpml:geometryImportTime>
+                <gml:TimeInstant>
+                    <gml:timePosition gml:frame="http://gplates.org/TRS/flat">1580.2669000000001</gml:timePosition>
+                </gml:TimeInstant>
+            </gpml:geometryImportTime>
+            <gpml:reconstructionPlateId>
+                <gpml:ConstantValue>
+                    <gpml:value>300</gpml:value>
+                    <gml:description></gml:description>
+                    <gpml:valueType xmlns:gpml="http://www.gplates.org/gplates">gpml:plateId</gpml:valueType>
+                </gpml:ConstantValue>
+            </gpml:reconstructionPlateId>
+            <gpml:centerLineOf>
+                <gpml:ConstantValue>
+                    <gpml:value>
+                        <gml:Polygon>
+                            <gml:exterior>
+                                <gml:LinearRing>
+                                    <gml:posList gml:dimension="2">-0.13590667984186572 61.05203230309175 2.7457781664616228 62.972211806596633 4.9375773799570633 65.455924785305911 6.2002295020632294 67.075832924065239 7.6231810721589426 69.399709653987784 7.8613679963352165 71.302673143419653 8.2538780190306262 72.575218544954552 7.7731192244047609 73.906771738243506 7.544895843484416 74.978690640701359 6.816702225849923 75.653994456862577 5.9029291279747858 76.554421692139201 3.6045755564401998 75.050707272990238 1.1200667356670277 73.794001136413328 -1.2093647429716192 71.69482753937676 -2.3898954020283383 71.664012240616586 -3.6736377889333389 70.525349155640512 -4.2904232694463582 68.348480368709133 -3.3770695512030313 66.541486289226498 -2.4599151846294673 67.058073030924234 -1.7381633346464767 66.303920384466565 -1.7385410116678335 65.650384679633873 -2.3509754439937325 65.169248074999089 -2.5826330977316165 64.441637326981635 -2.6180040280411423 63.648282668937874 -3.122141116965933 63.327525003826857 -1.880435413213182 61.358096930616 -0.13590667984186572 61.05203230309175 </gml:posList>
+                                </gml:LinearRing>
+                            </gml:exterior>
+                        </gml:Polygon>
+                    </gpml:value>
+                    <gml:description></gml:description>
+                    <gpml:valueType xmlns:gml="http://www.opengis.net/gml">gml:Polygon</gpml:valueType>
+                </gpml:ConstantValue>
+            </gpml:centerLineOf>
+        </gpml:OrogenicBelt>
+    </gml:featureMember>
+</gpml:FeatureCollection>
